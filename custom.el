@@ -22,6 +22,7 @@
  '(completion-ignored-extensions (remove ".git/" completion-ignored-extensions))
  '(completion-styles '(hotfuzz basic))
  '(crdt-tuntox-executable (file-truename "~/tuntox-x64"))
+ '(cua-prefix-override-inhibit-delay 0.5)
  '(cursor-intangible-mode t t)
  '(cursor-type t)
  '(describe-char-unidata-list

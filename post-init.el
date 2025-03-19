@@ -44,6 +44,8 @@
 
 (windmove-default-keybindings 'super)
 
+(cua-mode t)
+
 ;; (general-define-key
 ;;  :keymaps 'tuareg-mode-map
 ;;  "C-x M-1"                 'delete-other-windows

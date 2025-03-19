@@ -223,6 +223,12 @@ Use window key switch to move across windows
   (windmove-default-keybindings 'super)
 #+end_src
 
+Enable CUA mode (copy/paste with c/v/x)
+
+#+begin_src emacs-lisp
+  (cua-mode t)
+#+end_src
+
 *** Locally
 :PROPERTIES:
 :CUSTOM_ID: locally
