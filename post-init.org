@@ -217,6 +217,12 @@ Grouped under a prefix, allowing to define multiple keybindings under the same p
   ;;  "h"                       'mdrp/resize-window-height)
 #+end_src
 
+Use window key switch to move across windows
+
+#+begin_src emacs-lisp
+  (windmove-default-keybindings 'super)
+#+end_src
+
 *** Locally
 :PROPERTIES:
 :CUSTOM_ID: locally

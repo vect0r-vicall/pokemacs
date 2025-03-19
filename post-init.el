@@ -42,6 +42,8 @@
 ;;  "w"                       'mdrp/resize-window-width
 ;;  "h"                       'mdrp/resize-window-height)
 
+(windmove-default-keybindings 'super)
+
 ;; (general-define-key
 ;;  :keymaps 'tuareg-mode-map
 ;;  "C-x M-1"                 'delete-other-windows
