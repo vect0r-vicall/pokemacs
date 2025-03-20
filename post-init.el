@@ -46,6 +46,10 @@
 
 (cua-mode t)
 
+(general-define-key
+ "C-_" 'vundo
+ "C-x u" 'undo)
+
 ;; (general-define-key
 ;;  :keymaps 'tuareg-mode-map
 ;;  "C-x M-1"                 'delete-other-windows
