@@ -50,6 +50,12 @@
  "C-_" 'vundo
  "C-x u" 'undo)
 
+(global-set-key (kbd "C-c C-m e") 'mc/edit-lines)
+(global-set-key (kbd "C-c C-m a") 'mc/mark-all-like-this)
+(global-set-key (kbd "C-c C-m n") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-c C-m p") 'mc/mark-previous-like-this)
+(global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)
+
 ;; (general-define-key
 ;;  :keymaps 'tuareg-mode-map
 ;;  "C-x M-1"                 'delete-other-windows
