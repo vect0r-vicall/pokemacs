@@ -135,7 +135,7 @@
    '((consult-imenu buffer)
      (consult-line buffer)
      (execute-extended-command mouse)))
- '(vertico-resize t nil nil "Set to nil if you don't want the minibuffer to shrink and grow")
+ '(vertico-resize nil nil nil "Set to nil if you don't want the minibuffer to shrink and grow")
  '(warning-suppress-types
    '((files missing-lexbind-cookie)
      (flycheck syntax-checker) (treesit) (comp)))
