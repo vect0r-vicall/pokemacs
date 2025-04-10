@@ -247,6 +247,11 @@ Bind multi-cursor mode, on top of C-c C-m.
   (global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)
 #+end_src
 
+Set print key as M-x on Lenovo Carbon X1
+
+#+begin_src emacs-lisp
+(global-set-key (kbd "<print>") 'execute-extended-command)
+#+end_src
 
 
 *** Locally

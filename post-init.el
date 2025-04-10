@@ -56,6 +56,8 @@
 (global-set-key (kbd "C-c C-m p") 'mc/mark-previous-like-this)
 (global-set-key (kbd "C-S-<mouse-1>") 'mc/add-cursor-on-click)
 
+(global-set-key (kbd "<print>") 'execute-extended-command)
+
 ;; (general-define-key
 ;;  :keymaps 'tuareg-mode-map
 ;;  "C-x M-1"                 'delete-other-windows
